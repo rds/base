@@ -1,6 +1,8 @@
 clear_sources
 bundle_path 'vendor/bundled_gems'
 
+source 'http://gemcutter.org'
+
 gem 'rails', '2.3.5'
 gem 'jammit', '0.3.2'
 gem 'formtastic', '0.9.7'
