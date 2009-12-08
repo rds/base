@@ -6,6 +6,7 @@ source 'http://gemcutter.org'
 gem 'rails', '2.3.5'
 gem 'jammit', '0.3.2'
 gem 'formtastic', '0.9.7'
+gem 'inherited_resources', '0.9.3'
 
 only :test, :cucumber do
 	gem 'rspec', '1.2.9'
