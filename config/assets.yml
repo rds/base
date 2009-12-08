@@ -1,0 +1,27 @@
+# package_assets:         on          # (on, off, always)
+# embed_images:           on          # (on, off, datauri)
+# template_function:      _.template  # (defaults to the built-in micro-templating)
+# package_path:           packages    # (defaults to assets)
+# javascript_compressor:  closure     # (yui, closure)
+# compressor_options:
+#   compilation_level: ADVANCED_OPTIMIZATIONS
+ 
+javascripts:
+  jquery:
+    - public/javascripts/jquery.js
+  application:
+    - public/javascripts/application.js
+   
+stylesheets:
+  reset:    
+    - public/stylesheets/reset.css
+  grid:
+    - public/stylesheets/960.css
+  text:
+    - public/stylesheets/text.css
+    
+# templates:
+#   admin:
+#     - app/views/jst/**/*.jst
+#   public:
+#     - app/views/jst/public/*.jst
