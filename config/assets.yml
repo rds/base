@@ -19,7 +19,10 @@ stylesheets:
     - public/stylesheets/960.css
   text:
     - public/stylesheets/text.css
-    
+  forms:
+    - public/stylesheets/formtastic.css
+    - public/stylesheets/formtastic_changes.css
+  
 # templates:
 #   admin:
 #     - app/views/jst/**/*.jst
